@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#EC525A"
+    android:layout_marginBottom="2dp"
+     android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EC525A"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Name"
+            android:textColor="@android:color/white"
+            android:paddingLeft="5dp"
+            android:layout_weight="1.5"
+            android:id="@+id/tvName"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Roll"
+            android:textColor="@android:color/white"
+            android:paddingLeft="5dp"
+            android:layout_weight="1"
+            android:id="@+id/tvRoll"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EC525A"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Email"
+            android:textColor="@android:color/white"
+            android:paddingLeft="5dp"
+            android:textSize="16dp"
+            android:layout_weight="1.5"
+            android:id="@+id/tvEmail" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Phone"
+            android:textSize="16dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:id="@+id/tvPhone" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Address"
+        android:textColor="@android:color/white"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+
+        android:textSize="19dp"
+        android:id="@+id/tvAddress"
+        />
+
+
+
+
+</LinearLayout>

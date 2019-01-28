@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="MU CONTACTS LIST"
+        android:textStyle="bold"
+        android:textColor="#141446"
+        android:textSize="25sp"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Contact"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/heilightshape"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/btnAdd"
+        android:onClick="add"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Contacts"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:background="@drawable/heilightshape"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/btnView"
+        android:onClick="show"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Contact"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:background="@drawable/heilightshape"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/btnSearch"
+        android:onClick="search"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Contact"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:background="@drawable/heilightshape"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/btnUpdate"
+        android:onClick="update"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:background="@drawable/heilightshape"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/btnDelete"
+        android:onClick="delete" />
+</LinearLayout>
